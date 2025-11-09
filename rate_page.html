@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Rate</title>
+</head>
+<body bgcolor="lightblue">
+    <div style="background-color: #36454F; padding: 20px;">
+        <h1><center>Rate your books here</center></h1>
+    </div>
+    <hr size = "5" color = "black">
+    <br>
+   <center><select id = "theme">
+        <option value = "">Select a theme</option>
+        <option value = "Fiction">Fiction</option>
+        <option value = "Non-Fiction">Non-Fiction</option>
+        <option value = "Science-Fiction">Science-Fiction</option>
+        <option value = "Self-Help">Self-Help</option>
+        <option value = "Other">Other</option>
+   </select></center>
+    <br>
+    <form>
+        <div><center>
+            <label for = "bname">Enter the title of the book: </label>
+            <input type = "text" id = "bname" name = "bname" placeholder = "What did you read?" required>
+         </center></div>
+
+         <br>
+
+         <div><center>
+            <label for = "rnum">Enter the rating (/5) of the book: </label>
+            <input type = "number" id = "rnum" name = "rnum" placeholder = "Rate?" step = "any" required>
+         </center></div>
+
+         <br>
+
+         <div><center>
+            <input type = "submit">
+         </center></div>
+    </form>
+    
+</body>
+</html>
